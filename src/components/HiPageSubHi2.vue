@@ -1,6 +1,6 @@
 <template>
     <div>
-        <p>{{msg}}</p>
+        <p>{{msg}} -- {{$route.params.foo1}} -- {{$route.params.foo2}}</p>
     </div>
 </template>
 
